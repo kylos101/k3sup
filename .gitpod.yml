@@ -1,0 +1,8 @@
+---
+tasks:
+  - before: 
+      go clean
+    init: 
+      go build
+  - command: |
+      go test
