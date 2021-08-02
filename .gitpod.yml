@@ -15,10 +15,8 @@ github:
     # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
 tasks:
-  - before: 
-      go clean
-    init: 
-      go install
+  - before: go clean
+  - init: go install
   - command: |
       go test
 vscode:
