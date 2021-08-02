@@ -23,5 +23,4 @@ vscode:
   extensions:
     - EditorConfig.EditorConfig
     - golang.go
-    - ms-kubernetes-tools.vscode-kubernetes-tools
     - stkb.rewrap
